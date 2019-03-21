@@ -1,5 +1,6 @@
 <?php
-// Session starten
+
+// Session starten git test
 session_start();
 session_regenerate_id();
 
