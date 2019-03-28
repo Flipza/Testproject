@@ -24,7 +24,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <body>
 
     <div class="page-header">
-        <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
+        <h1>Hallo, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Herzlich willkommen auf unserer Homepage.</h1>
     </div>
 	<p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
@@ -87,14 +87,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 		</div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="headerSlider" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="headerSlider" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 </div>
 	<!------About------>

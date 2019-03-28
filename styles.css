@@ -4,6 +4,15 @@
 	padding: 0;
 }
 /*-----------WELCOME TEXT-----------------*/
+#welcome-text
+.page-header h1
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
 
 
  /*---------navbar-------*/
@@ -44,7 +53,7 @@
  {
 	color: #555!important;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 20px;
  }
  /*------Slider------*/
  #slider
