@@ -8,7 +8,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 }
 ?>
- 
+
+
 <!DOCTYPE html>
 
 <html>
@@ -59,67 +60,5 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </div>
 </nav>
 </section>
-	<!------Slider-----> :
-<div id="slider"> 
-<div id="headerSlider" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
-    <li data-target="#headerSlider" data-slide-to="1"></li>
-    <li data-target="#headerSlider" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block img-fluid" src="img/Nummer1.jpg">
-		<div class="carousel-caption">
-			<h5> TECHNISCHE BERUFSSCHULE ZÜRICH
-		</div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/Nummer2.jpg" >
-		<div class="carousel-caption">
-			<h5> IT - BI16b - MODUL 133
-		</div>
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/Nummer3.jpg" >
-		<div class="carousel-caption">
-			<h5> SHAKISAN JEIYASILAN, PHILIPP ZAHNER
-		</div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="headerSlider" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="headerSlider" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-	<!------About------>
-<section id="about">
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<h2> About US </h2>
-<div class="about-content">
-Like this video and your questions in comment section, don't forget
-to Subscribe Easy Tutorials Youtube channel to watch more videos of website designing, digital marketing 
-and photoshop.
-</div>
-<button type="button" class="btn btn-primary">Read more>
-</button>
-</div>
-<div class="col-md-6">
-	<p> Unser Projekt</p>
-	<div class="progress">
-	<div class="progress-bar">
-	
-	</div>
-</div>
-</div>
-</div>
-</section>	
 </body>
 </html>
