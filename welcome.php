@@ -22,7 +22,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-
+<section id ="welcome-text">
     <div class="page-header">
         <h1>Hallo, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Herzlich willkommen auf unserer Homepage.</h1>
     </div>
@@ -30,7 +30,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
-
+</section>
 <!----Navigationbar---->
 <section id="nav-bar">
 <nav class="navbar navbar-expand-lg navbar-light">
