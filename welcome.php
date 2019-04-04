@@ -14,7 +14,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <html>
 <head>
 <title>M133 Website</title>
-<link rel ="stylesheet" href="style.css">
+<link rel ="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -22,17 +22,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+<section id="welcome-text">
     <div class="page-header">
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION["username"]); ?></b>. Welcome to our site.</h1>
     </div>
-    <p>
+	<p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
         <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
     </p>
+</section>
 <!----Navigationbar---->
 <section id="nav-bar">
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+  <a class="navbar-brand" href="#"><img src="img/2_logo.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -53,9 +55,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 	  <li class="nav-item">
         <a class="nav-link" href="#">CONTACT</a>
       </li>
-	  <li class="nav-item">
-        <a class="nav-link" href="#">LOGIN</a>
-      </li>
     </ul>
   </div>
 </nav>
@@ -70,21 +69,21 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block img-fluid" src="img/Auge.jpeg">
+      <img class="d-block img-fluid" src="img/Nummer1.jpg">
 		<div class="carousel-caption">
-			<h5> HD PICTURE
+			<h5> TECHNISCHE BERUFSSCHULE ZÜRICH
 		</div>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/Kugel.jpg" >
+      <img class="d-block img-fluid" src="img/Nummer2.jpg" >
 		<div class="carousel-caption">
-			<h5> FIRST ONE 
+			<h5> IT - BI16b - MODUL 133
 		</div>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="img/Verschieden.jpg" >
+      <img class="d-block img-fluid" src="img/Nummer3.jpg" >
 		<div class="carousel-caption">
-			<h5> HD VIDEO
+			<h5> SHAKISAN JEIYASILAN, PHILIPP ZAHNER
 		</div>
     </div>
   </div>
