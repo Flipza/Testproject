@@ -53,7 +53,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a class="nav-link" href="http://localhost/M133%20Webprojekt/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTACT</a>
+        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
@@ -90,28 +90,5 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </div>
 </div>
 	<!------About------>
-<section id="about">
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<h2> About US </h2>
-<div class="about-content">
-Like this video and your questions in comment section, don't forget
-to Subscribe Easy Tutorials Youtube channel to watch more videos of website designing, digital marketing 
-and photoshop.
-</div>
-<button type="button" class="btn btn-primary">Read more>
-</button>
-</div>
-<div class="col-md-6">
-	<p> Unser Projekt</p>
-	<div class="progress">
-	<div class="progress-bar">
-	
-	</div>
-</div>
-</div>
-</div>
-</section>	
 </body>
 </html>

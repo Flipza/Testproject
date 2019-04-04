@@ -54,11 +54,42 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a class="nav-link" href="http://localhost/M133%20Webprojekt/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTACT</a>
+        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
 </nav>
 </section>
+
+<!--------Member--------->
+<section id="team">
+
+<div class="container">
+<h3> Unser Team </h3>
+<div class="row">
+<div class="col-md-3 profile-pic text-center">
+<div class="img-box">
+<img src="img/team1.jpg" class="img-responsive">
+<div>
+<h4>PHILIPP ZAHNER</h4>
+<h5>Klasse BI16b</h5>
+<h6>Technische Berufsschule Zürich</h6> 	<!-----46:58 Video>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div
+</section>
+
+
+</div>
+</section>	
+
+
 </body>
 </html>

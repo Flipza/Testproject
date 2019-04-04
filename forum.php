@@ -54,7 +54,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <a class="nav-link" href="http://localhost/M133%20Webprojekt/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTACT</a>
+        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
