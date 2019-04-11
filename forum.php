@@ -42,19 +42,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/welcome.php">HOME</a>
+        <a class="nav-link" href="https://localhost/welcome.php">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/aboutus.php">ÜBER UNS</a>
+        <a class="nav-link" href="https://localhost/aboutus.php">ÜBER UNS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/video.php">VIDEO</a>
+        <a class="nav-link" href="https://localhost/video.php">VIDEO</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/forum.php">FORUM</a>
+        <a class="nav-link" href="https://localhost/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="http://localhost/M133%20Webprojekt/contact.php">KONTAKT</a>
+        <a class="nav-link" href="https://localhost/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
