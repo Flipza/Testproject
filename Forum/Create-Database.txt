@@ -12,7 +12,7 @@ CREATE TABLE `forum_question` (
 `view` int(4) NOT NULL default '0',
 `reply` int(4) NOT NULL default '0',
 PRIMARY KEY (`id`)
-) TYPE=MyISAM AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM AUTO_INCREMENT=1 ;
 
  
 
@@ -26,4 +26,4 @@ CREATE TABLE `forum_answer` (
 `a_answer` longtext NOT NULL,
 `a_datetime` varchar(25) NOT NULL default '',
 KEY `a_id` (`a_id`)
-) TYPE=MyISAM;
+) ENGINE=MyISAM;
