@@ -36,3 +36,6 @@
 </form>
 </tr>
 </table>
+<form action="https://localhost/M133 Webprojekt/Forum/main_forum.php">
+    <input type="submit" value="Back to Main-Forum" />
+</form>
