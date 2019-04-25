@@ -56,10 +56,11 @@
 	font-size: 20px;
  }
  /*------Slider------*/
- #slider
+#slider
  {
 	 width: 100%;
  }
+
 .carousel-caption
 {
 	top: 50%;
@@ -75,7 +76,6 @@
 
  /*---------About---------*/
 
- 
  #team
  {
 	padding-top: 0px;
@@ -83,11 +83,15 @@
 	color: #555;
 	color: #555;
  }
+ 
+ 
+ #member
+ 
  h3
  {
 	 text-align: center;
 	 color: #555 !important;
-	 padding-bottom: 10px;
+	 border-bottom: 10px;
  }
  h3::after
  {
