@@ -1,4 +1,14 @@
 <?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: https://localhost/M133%20Webprojekt/login.php");
+    exit;
+}
+?>
+<?php
 
 $host="localhost"; // Host name 
 $username=""; // Mysql username 
