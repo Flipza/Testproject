@@ -166,5 +166,5 @@ mysqli_close($conn);
 </tr>
 </table>
 <form action="https://localhost/Forum/main_forum.php">
-    <input type="submit" class= "btn btn-primary" value="Back to Main-Forum" style= "transform: translate(600%, 100%)" />
+    <input type="submit" class= "btn btn-primary" value="Hier geht es zurück" style= "transform: translate(600%, 100%)" />
 </form>
