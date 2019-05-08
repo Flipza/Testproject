@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>M133 Website</title>
-<link rel ="stylesheet" href="styles.css">
+<link rel ="stylesheet" href="forum.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -30,26 +30,51 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/welcome.php">HOME</a>
+        <a class="nav-link" href="https://localhost/welcome.php">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/aboutus.php">ÜBER UNS</a>
+        <a class="nav-link" href="https://localhost/aboutus.php">ÜBER UNS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/video.php">VIDEO</a>
+        <a class="nav-link" href="https://localhost/video.php">VIDEO</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/forum.php">FORUM</a>
+        <a class="nav-link" href="https://localhost/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/contact.php">KONTAKT</a>
+        <a class="nav-link" href="https://localhost/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
 </nav>
 </section>
-<form action="https://localhost/M133 Webprojekt/Forum/main_forum.php">
-    <input type="submit" value="Go to Forum-Page" />
-</form>
+<section id="forum">
+<div id="slider"> 
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="img/team.jpg" >
+		<div class="carousel-caption">
+			<h2> FORUM </h2>
+			<h6> Herzlich willkommen in unserem neuen Forum. 
+				Wie ihr seht, ist es zwar gerade noch etwas leer hier, aber das wird schon. 
+				Wie euch hier und da sicher auffällt, ist das Ganze auch noch nicht zu 100% perfekt. 
+				Wenn euch also Fehler oder Ungereimtheiten auffallen, 
+				öffnet einfach ein Thema im Bereich "Bugs und Anpassungen" 
+				und macht uns darauf aufmerksam. Wir zählen auf eure Mithilfe.
+
+			</h6>
+		<form action="https://localhost/Forum/main_forum.php">
+			<input type="submit" class="btn btn-primary" value="Go to Forum-Page" />
+		</form>
+		</div>
+    </div>
+	</div>
+
+</div>
+</div>
+
+
+</section>
 </body>
 </html>

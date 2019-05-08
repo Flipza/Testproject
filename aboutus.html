@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>M133 Website</title>
-<link rel ="stylesheet" href="styles.css">
+<link rel ="stylesheet" href="aboutus.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,7 +18,7 @@
     </div>
 	<p>
         <a href="reset-password.php" class="btn btn-warning">Reset Your Password</a>
-        <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
+        <a href="logout.php" class="btn btn-danger" >Sign Out of Your Account</a>
     </p>
 </section>
 <!----Navigationbar---->
@@ -31,59 +31,67 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/welcome.php">HOME</a>
+        <a class="nav-link" href="https://localhost/welcome.php">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/aboutus.php">ÜBER UNS</a>
+        <a class="nav-link" href="https://localhost/aboutus.php">ÜBER UNS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/video.php">VIDEO</a>
+        <a class="nav-link" href="https://localhost/video.php">VIDEO</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/forum.php">FORUM</a>
+        <a class="nav-link" href="https://localhost/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/contact.php">KONTAKT</a>
+        <a class="nav-link" href="https://localhost/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
 </nav>
 </section>
+</body>
 
 <!--------Member--------->
-<section id= "member">
-<div class="w3-row-padding">
-<h3> Unser Team </h3>
-</div>
-<div style="width:1100px; margin:0 auto;">    
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-bottom-top">
-      <img src="img/team1.jpg" alt="ZAHNER" style="width:75%">
-      <h4>PHILIPP ZAHNER</h4>
-      <p class="w3-opacity">Klasse BI16b</p>
-      <p>Technische Berufsschule Zürich</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact ~ +41 77 898 87 44</button></p>
+<div id="slider"> 
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="img/team.jpg" >
+		<div class="carousel-caption">
+			<h5> Unser Team 
+			<h6> Wir stehen Ihnen für Fragen zur Verfügung, egal ob es sich um Ihre Bestellung 
+				oder um Algen handelt.Erleben Sie mit uns authentische Momente. Wir 
+				stehen Ihnen dazu rund um die Uhr mit Leidenschaft sowie Rat und Tat zur Seite. 
+				Lass Sie uns jederzeit wissen, wie wir Ihren Wunsch bei 
+				uns unvergleichlich gestalten können.
+			</h6>	
+		</div>
     </div>
-    <div class="w3-col l3 m6 w3-bottomg-top">
-      <img src="img/team1.jpg" alt="JEIYASILAN" style="width:75%">
-      <h4>SHAKISAN JEIYASILAN</h4>
-      <p class="w3-opacity">Klasse BI16b</p>
-      <p>Technische Berufsschule Zürich</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact ~ +41 77 898 87 55</button></p>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/team.jpg" >
+		<div class="carousel-caption">
+			<h5> PHILIPP ZAHNER </h5>
+			<h6> BI16b			</h6>
+			<h6> BETRIEBSINFORMATIKER </h6>
+			<h7> +41 79 999 22 22 </h7>
+		</div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/team.jpg" >
+		<div class="carousel-caption">
+			<h5> SHAKISAN JEIYASILAN </h5>
+			<h6> BI16b			</h6>
+			<h6> BETRIEBSINFORMATIKER </h6>
+			<h7> +41 79 999 22 33 </h7>
+		</div>
     </div>
   </div>
-  </div>
-</section>
-
-
-
-
-
-
-
 </div>
-</section>	
-
-
+</div>
 </body>
 </html>

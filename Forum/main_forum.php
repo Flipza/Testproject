@@ -1,3 +1,11 @@
+<head>
+<link rel ="stylesheet" href="forum.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
 <?php
 // Initialize the session
 session_start();
@@ -59,6 +67,8 @@ mysqli_close($conn);
 <td colspan="5" align="right" bgcolor="#E6E6E6"><a href="create_topic.php"><strong>Create New Topic</strong> </a></td>
 </tr>
 </table>
-<form action="https://localhost/M133 Webprojekt/welcome.php">
-    <input type="submit" value="Back to Mainsite" />
+<div class="carousel-">
+<form action="https://localhost/welcome.php">
+    <input type="submit" class="btn btn-primary" value="Hier geht es zurück" style= "transform: translate(700%, 100%)"/>
 </form>
+</div>

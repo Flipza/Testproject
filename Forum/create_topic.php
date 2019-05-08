@@ -1,3 +1,12 @@
+<head>
+<link rel ="stylesheet" href="forum.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
 <?php
 // Initialize the session
 session_start();
@@ -39,13 +48,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 <tr>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
-<td><input type="submit" name="Submit" value="Submit" /> <input type="reset" name="Submit2" value="Reset" /></td>
+<td><input type="submit" name="Submit" class="btn btn-primary" value="Submit" /> <input type="reset" name="Submit2" class="btn btn-primary" value="Reset" /></td>
 </tr>
 </table>
 </td>
 </form>
 </tr>
 </table>
-<form action="https://localhost/M133 Webprojekt/Forum/main_forum.php">
-    <input type="submit" value="Back to Main-Forum" />
+<form action="https://localhost/Forum/main_forum.php">
+    <input type="submit" class="btn btn-primary" value="Hier geht es zurück" style= "transform: translate(590%, 100%)"/>
 </form>

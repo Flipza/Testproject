@@ -1,0 +1,168 @@
+*
+#contact
+
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	max-width: 100%; 
+	max-height: 100%;
+}
+body{
+	background-color: #4A777A;
+}
+@keyframes showup {
+	from{
+		opacity: 0;
+		top: 60%;
+	}
+	to{
+		opacity: 1;
+		top: 50%;
+	}
+}
+.container{
+	background-color: #ffffff;
+	height: 230px;
+	width: 395px;
+	position: absolute;
+	transform: translate(-50%,-70%);
+	left: 50%;
+	top: 50%;
+	border-radius: 2px;
+	animation-name: showup;
+	animation-duration: 1s;
+}
+.container form{
+	position: relative;
+	transform: translate(-50%,0%);
+	top: 10%;
+	bottom: 10%;
+	left: 50%;
+	width: 80%;
+}
+form .title{
+	margin-bottom: 20px;
+}
+form h1{
+	font-family: 'open sans',sans-serif;
+	font-size: 22px;
+	color: #00CDCD;
+	margin-bottom: 5px;
+}
+form p{
+	font-family: 'open sans',sans-serif;
+	font-size: 12px;
+	color: gray;
+}
+form .email[type="email"]{
+	border: 1px solid #Bababa;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+form .name[type="name"]{
+	border: 1px solid #Bababa;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 5px;	
+}
+form textarea{
+	border: 1px solid #Bababa;
+	width: 100%;
+	padding: 10px;
+	font-family: 'open sans',sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	min-height: 200px;
+	height: auto;
+	resize: none;
+}
+
+
+
+#welcome-text
+.page-header h1
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+
+ /*---------navbar-------*/
+ #nav-bar
+ {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+ }
+ .navbar-brand img
+ {
+	height: 60px;
+	padding-left: 100;
+ }
+ .navbar-nav li
+
+ {
+	padding: 0 10px;	
+ }
+ .navbar-nav li a
+ {
+	float: right;
+	text-align: left;
+ }
+ #navbar ul li a:hover
+ {
+	color: #007bff!important;
+ }
+ .navbar
+ {
+	background: #fff;
+ }
+ .navbar-toggler
+ {
+	border: none!important;
+ }
+ .nav-link
+ {
+	color: #555!important;
+	font-weight: 600;
+	font-size: 20px;
+ }
+
+
+
+
+ 
+ #contact
+ {
+	width: 75%;
+	transform: translate(17%,-0%); 
+ }
+ 
+  h2::after
+ {
+	 content: '';
+	 background: #007bff;
+	 display: block;
+	 height: 3px;
+	 width: 170px;
+	 margin: 5px auto 2px;
+ }
+ .container p
+ {
+	 text-align: center;
+	 font-size: 22px;
+	 font-weight: 100px;
+ }
+	 
+
+
+
+
+ 

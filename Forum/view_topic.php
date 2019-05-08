@@ -1,3 +1,13 @@
+<head>
+<title>M133 Website</title>
+<link rel ="stylesheet" href="aboutus.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
 <?php
 // Initialize the session
 session_start();
@@ -148,13 +158,13 @@ mysqli_close($conn);
 <tr>
 <td>&nbsp;</td>
 <td><input name="id" type="hidden" value="<?php echo $id; ?>"></td>
-<td><input type="submit" name="Submit" value="Submit"> <input type="reset" name="Submit2" value="Reset"></td>
+<td><input type="submit"  class= "btn btn-primary" name="Submit" value="Submit"> <input type="reset" class= "btn btn-primary" name="Submit2" value="Reset"></td>
 </tr>
 </table>
 </td>
 </form>
 </tr>
 </table>
-<form action="https://localhost/M133 Webprojekt/Forum/main_forum.php">
-    <input type="submit" value="Back to Main-Forum" />
+<form action="https://localhost/Forum/main_forum.php">
+    <input type="submit" class= "btn btn-primary" value="Back to Main-Forum" style= "transform: translate(600%, 100%)" />
 </form>

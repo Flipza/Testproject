@@ -3,7 +3,7 @@
 <html>
 <head>
 <title>M133 Website</title>
-<link rel ="stylesheet" href="styles.css">
+<link rel ="stylesheet" href="contact.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -31,19 +31,19 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/welcome.php">HOME</a>
+        <a class="nav-link" href="https://localhost/welcome.php">HOME</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/aboutus.php">ÜBER UNS</a>
+        <a class="nav-link" href="https://localhost/aboutus.php">ÜBER UNS</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/video.php">VIDEO</a>
+        <a class="nav-link" href="https://localhost/video.php">VIDEO</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/forum.php">FORUM</a>
+        <a class="nav-link" href="https://localhost/forum.php">FORUM</a>
       </li>
 	  <li class="nav-item">
-        <a class="nav-link" href="https://localhost/M133 Webprojekt/contact.php">KONTAKT</a>
+        <a class="nav-link" href="https://localhost/contact.php">KONTAKT</a>
       </li>
     </ul>
   </div>
@@ -51,29 +51,27 @@
 </section>
 
 <!------------Kontakt---------->
-<section id="contact"> 
- <div class="w3-light-grey w3-padding-large w3-padding-32 w3-margin-top" id="contact">
-    <h3 class="w3-center">Contact</h3>
-    <hr>
-    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus.</p>
+<section id= "contact">
+	 <div class="carousel-inner">
+	 <img class="d-block img-fluid" src="img/team.jpg" >
+	 <div class="carousel-caption">
+		<form>
+			
+			<div class="title">
+			<h2>KONTAKT</h2>
+			<h6>Kontaktieren Sie uns Heute und erhalten Sie eine Rückmeldung innerhalb von 24 Stunden!</h6>
+			</div>
+			<input type="name" name="name" class="name" placeholder="Name" tabindex="1" required autofocus><br>
+			<input type="email" name="email" class="email" placeholder="Email" tabindex="2" required ><br>			
+			<textarea placeholder="Type your message here" tabindex="5" required ></textarea>
 
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" required name="Name">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" required name="Email">
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" required name="Message">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-dark-grey">Send</button>
-    </form><br>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</section>
-  </div>
+		</form>
+		<input type="button" name="contact-btn" class="btn btn-primary" value="Contact Us">	
+		</div>
+				
+	</div>
+	</section>
+  </body>
+</html>
 
 
